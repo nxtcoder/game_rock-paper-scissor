@@ -8,7 +8,7 @@ function getComputerChoice(){
     }else if(randomNum === 1){
         return "PAPER"
     }else{
-        return "SCISSOR"
+        return "SCISSORS"
     }
     
 }
@@ -18,9 +18,9 @@ function playRound(player, computer){
     return "Draw"
     }else if (player === "ROCK" && computer === "PAPER"){
     return ("Loose")
-    }else if(player === "PAPER" && computer === "SCISSOR"){
+    }else if(player === "PAPER" && computer === "SCISSORS"){
     return ("Loose")
-    }else if(player === "SCISSOR" && computer === "ROCK"){
+    }else if(player === "SCISSORS" && computer === "ROCK"){
     return ("Loose")
     }else {
     return "Win"
